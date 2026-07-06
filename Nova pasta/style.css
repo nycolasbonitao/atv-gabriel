@@ -1,0 +1,32 @@
+body {
+    background-color: #310bdb;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #d40ee6;
+}
+
+p{
+    font-size: 20px;
+}
+
+button {
+    padding: 10px ;
+    background-color: #0a93ee;
+    color: rgb(83, 7, 7);
+}
+
+.bloco {
+    background-color: rgb(200, 200, 253);
+    padding: 15px;
+    border: 2px solid rgb(7, 7, 219);
+    margin: 15px auto;
+    width: 500px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
