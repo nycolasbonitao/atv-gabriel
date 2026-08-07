@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #dfe9f3 linear-gradient(to top, #ffffff 0%, #dfe9f3 100%);
+    margin: 0;
+    padding: 40px 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 620px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(30, 50, 56, 0.15);
+}
+
+h1 {
+    margin-top: 0;
+    color: #174e6a;
+    text-align: center;
+}
+
+.container p {
+    color: #525d6d;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 22px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    border: 1px solid #d0dbe2;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #174e6a;
+    outline: 2px solid rgba(23, 78, 106, 0.15);
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+button {
+    flex: 1;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #174e6a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+
+button:hover {
+    background-color: #0f3d52;
+}
+
+button.secundario {
+    background-color: #607d8b;
+}
+
+button.secundario:hover {
+    background-color: #455a64;
+}
+
+.painel-resultado {
+    margin-top: 26px;
+    padding: 20px;
+    border: 2px solid #174e6a;
+    border-radius: 8px;
+    background-color: #f5fbfc;
+}
+
+.painel-resultado h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#mensagem {
+    color: #5c596d;
+}
+
+#resultado {
+    min-height: 52px;
+    margin-bottom: 0;
+    color: #174e6a;
+    font-size: 20px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 520px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .container {
+        padding: 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    #resultado {
+        font-size: 18px;
+    }
+}
