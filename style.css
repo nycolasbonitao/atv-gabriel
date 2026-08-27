@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: black;
+  color: #e8edf2;
+}
+
+h1 {
+  text-decoration: underline;
+  text-shadow: 
+    -1px -1px 0 rgb(47, 255, 238),  
+     1px -1px 0 rgb(47, 255, 238),
+    -1px  1px 0 rgb(47, 255, 238),  
+     1px  1px  rgb(47, 255, 238),
+     0    0   12px rgb(47, 255, 238); 
+  color: black;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h3 {
+  text-shadow: 0 0 10px rgb(47, 255, 238);
+  color: rgb(47, 255, 238);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.pesquisa-container {
+  margin-bottom: 20px;
+}
+
+#pesquisaInput {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #242b32;
+  background: black;
+  color: gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#pesquisaInput:focus {
+  border-color: rgb(47, 255, 238);
+  box-shadow: 0 0 10px rgb(23, 41, 39);
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  display: block;
+  padding: 15px;
+  background: rgb(14, 17, 26);;
+  color: #f4f7fa;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #242b32;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  box-shadow: 0 0 10px rgb(23, 41, 39);
+  border-color: rgb(47, 255, 238);
+  color: rgb(47, 255, 238);
+}
